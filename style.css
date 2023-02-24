@@ -13,12 +13,19 @@ body{
 
 /* Header Section CSS  */
 
+.hr{
+    border: 1px solid #ff004f;
+    margin: 110px;
+}
+
+
 #header{
     width: 100%;
     height: 100vh;
     background-image: url(images/background.png);
     background-size: cover;
     background-position: center;
+    margin-bottom: 110px;
 }
 
 .logo{
