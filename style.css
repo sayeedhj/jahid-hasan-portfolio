@@ -427,7 +427,7 @@ width: 100%;
     width: 100%;
 }
 
-form input, from textarea{
+form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
