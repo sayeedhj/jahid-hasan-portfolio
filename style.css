@@ -266,7 +266,7 @@ width: 100%;
 
 .services-list .data h2{
     margin-bottom: 10px;
-    color: #9e0a39;
+    color: #ff004f;
 }
 
 
@@ -444,4 +444,9 @@ form .btn2{
     font-size: 20px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: 500px 300px;
 }
