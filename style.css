@@ -534,7 +534,7 @@ nav .bx{
     }
 
     .about-col-1 img{
-        width: 80%;
+        width: 100%;
     }
 
     .about-col-2 p{
@@ -549,7 +549,7 @@ nav .bx{
     }
 
     .skills__data{
-        width: 100%;
+        width: 95%;
     }
 
     .services-list{
@@ -580,17 +580,34 @@ nav .bx{
 
     .contact-me{
         font-size: 20px;
+        text-align: center;
     }
 
 
     .contact .row{
-        display: block;
-        margin: 10px ;
+        display: flex;
+        margin: 20px;
         
     }
 
-    .social-icons{
-        display: flex;
+
+    
+
+    .contact-right{
+    text-align: center;
+    width: 100%;
+    margin: 0 20px;
+    }
+
+    .contact-info{
+        text-align: center;
+    }
+
+    .social-icons a{
+        text-align: center;
+    }
+    .contact-left{
+        width: 100%;
     }
 
     
