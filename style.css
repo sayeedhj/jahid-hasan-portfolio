@@ -472,6 +472,8 @@ nav .bx{
 
 .certification{
     text-align: center;
+    margin: 10px;
+    border-radius: 10px;
     
 }
 
@@ -493,6 +495,15 @@ nav .bx{
     width: 70%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), #2b0e17) ;
     padding: 10px;
+    border-radius: 10px;
+}
+
+.c1, .c2{
+    background: #262626;
+    margin: 80px;
+    padding: 20px;
+    border-radius: 15px;
+
 }
 
 
@@ -611,8 +622,10 @@ nav .bx{
     
 
     .contact-me{
-        font-size: 20px;
+        font-size: 40px;
         text-align: center;
+        margin-top: 20px;
+
     }
 
 
@@ -651,6 +664,15 @@ nav .bx{
 
     .certificates{
         display: block;
+    }
+
+
+    .c1, .c2{
+        background: #262626;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 15px;
+    
     }
 
     .ct h2,h3{
@@ -744,6 +766,16 @@ nav .bx{
         font-size: 50px;
         margin-top: 20px;
     }
+
+
+
+   
+    
+    
+    
+    
+    
+    
 
 }
     
