@@ -23,3 +23,10 @@ var tablinks = document.getElementsByClassName("tab-links");
    function closeMenu(){
        sidemeu.style.right = "-600px"
    }
+
+   var typed = new Typed(".auto-type",{
+    strings: ["","Digital Marketing", "Shopify", "Social Media Marketing"],
+    typeSpeed: 80,
+    backSpeed: 80,
+    loop: true
+   })
