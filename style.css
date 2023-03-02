@@ -384,6 +384,45 @@ width: 100%;
     background: #ff004f;
 }
 
+
+
+/* Testimonial Section  */
+.testimonial{
+    background: #262626;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.testimonial .clients{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.clients .client img{
+    border-radius: 50%;
+    width: 130px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.clients .client{
+    border: 2px solid #52411f;
+    margin: 10px;
+    padding: 10px;
+    background: #2f413b;
+    border-radius: 7px;
+    box-shadow: 2px 4px 6px gray;
+}
+
+.clients .client:hover{
+    cursor: pointer;
+    background: #9b0b39;
+    transition: 0.6s ease;
+}
+
 /* Contact CSS Section */
 
 .contact .row{
@@ -594,6 +633,45 @@ nav .bx{
         font-size: 100%;
     }
 
+    .layer{
+        display: none;
+    }
+
+    .testimonial{
+        background: #262626;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+    
+    .testimonial .clients{
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+        
+    }
+    
+    .clients .client img{
+        border-radius: 50%;
+        width: 120px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .clients .client{
+        border: 2px solid #52411f;
+        margin: 10px;
+        padding: 10px;
+        background: #2f413b;
+        margin-bottom: 30px;
+        
+    }
+    
+    .clients .client:hover{
+        cursor: none;
+        background: #2f413b;
+    }
+
 
 
     .tab-links{
@@ -608,6 +686,7 @@ nav .bx{
     .services-list{
         display: block;
     }
+
 
     .services-list .data{
         padding: 10px;
@@ -628,6 +707,8 @@ nav .bx{
         line-height: 10px;
         width: 100%;
     }
+
+    
     
     
 
