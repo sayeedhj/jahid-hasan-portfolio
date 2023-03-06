@@ -648,6 +648,7 @@ nav .bx{
         margin-left: 20px;
         margin-right: 20px;
         border-radius: 10px;
+        margin-bottom: 80px;
     }
     
     .testimonial .clients{
@@ -758,9 +759,20 @@ nav .bx{
         width: 10px;
     }
 
+    .certext{
+    background-color: #2f413b;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    color: yellow;
+    }
 
     .certificates{
         display: block;
+        margin-bottom: 120px;
+    }
+    .certificates img{
+        width: 100%;
     }
 
 
@@ -793,7 +805,7 @@ nav .bx{
 
 
     .ftr .container{
-        display: inline-block;
+        display: block;
     }
 }
 
