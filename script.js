@@ -25,8 +25,8 @@ var tablinks = document.getElementsByClassName("tab-links");
    }
 
    var typed = new Typed(".auto-type",{
-    strings: ["","Digital Marketing", "Shopify", "Social Media Marketing"],
-    typeSpeed: 80,
-    backSpeed: 80,
+    strings: ["","Digital Marketing", "Shopify Dropshipping", "Social Media Marketing"],
+    typeSpeed: 70,
+    backSpeed: 70,
     loop: true
    })

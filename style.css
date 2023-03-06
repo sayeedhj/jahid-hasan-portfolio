@@ -417,6 +417,10 @@ width: 100%;
     box-shadow: 2px 4px 6px gray;
 }
 
+.clients .client p{
+    font-weight: bolder;
+}
+
 .clients .client:hover{
     cursor: pointer;
     background: #9b0b39;
@@ -520,12 +524,6 @@ nav .bx{
     
 }
 
-
-
-.certificates{
-    display: flex;
-}
-
 .ccaption{
     color: #ff004f;
     text-align: center;
@@ -535,24 +533,32 @@ nav .bx{
 
 .certification img{
     text-align: center;
-    width: 70%;
+    width: 600px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), #2b0e17) ;
     padding: 10px;
     border-radius: 10px;
 }
 
 .c1, .c2{
-    background: #262626;
     margin: 80px;
     padding: 20px;
     border-radius: 15px;
 
 }
 
+.certext{
+    background-color: #2f413b;
+    padding: 15px;
+    margin: 8px 100px;
+    border-radius: 10px;
+    color: yellow;
+
+}
+
 
 /* Media Query  */
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 420px){
 
     .ccaption{
         font-size: 40px;
@@ -793,7 +799,9 @@ nav .bx{
 
 
 
-@media screen and (min-width: 415px) and (max-width: 950px) {
+
+
+@media screen and (min-width: 440px) and (max-width: 700px) {
     
     
     .services-list{
@@ -844,9 +852,9 @@ nav .bx{
      color: #fff;
     }
     
-    .container{
+    /* .container{
         padding: 30px 40px;
-    }
+    } */
     
     
     .header-text{
@@ -858,17 +866,165 @@ nav .bx{
         margin-top: 20px;
     }
 
-
-
-   
-    
-    
-    
-    
-    
-    
-
 }
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    #header{
+        width:100%;
+        height: 40vh;
+        background-position:0;
+    }
+    .container{
+        padding: 20px 0px;
+        margin: 10px 40px;
+    }
+
+
+    #about{
+        padding: 80px 0;
+        color: #ababab;
+        background: #262626;
+    }
     
+    
+    .about-col-1{
+        flex-basis: 35%;
+    }
+    
+    .about-col-1 img{
+        width: 110%;
+        border-radius: 15px;
+    }
+    
+    .about-col-2{
+        flex-basis: 50%;
+    
+    }
+
+
+    #services{
+        padding: 30px 0;
+    }
+    
+    
+    .data .bx{
+        font-size: 70px;
+    }
+    
+    
+    
+    .services-list{
+        display: grid;
+        grid-template-columns:280px 280px ;
+        grid-gap: 40px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    
+
+    #recent-work{
+        padding: 50px 0;
+    }
+    
+    .work-list{
+        display: grid;
+        grid-template-columns:80%;
+        grid-gap: 40px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    
+    .certification{
+        text-align: center;
+        margin: 10px;
+        border-radius: 10px;
+        margin-bottom: 60px;
+        
+    }
+    
+    
+    
+    .certificates{
+        display: flex;
+    }
+    
+    .ccaption{
+        color: #ff004f;
+        text-align: center;
+        font-size: 50px; 
+        margin-bottom: 30px
+    }
+    
+    .certification img{
+        text-align: center;
+        width: 70%;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #2b0e17) ;
+        padding: 1px;
+        border-radius: 10px;
+    }
+    
+    .c1, .c2{
+        background: none;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 15px;
+    
+    }
+
+    .certext{
+        background-color: #2f413b;
+        padding: 15px;
+        margin: 8px 60px;
+        border-radius: 10px;
+    
+    }
+    
+
+    .testimonial{
+        background: #262626;
+        margin: 0px 70px;
+        border-radius: 10px;
+    }
+    
+    .testimonial .clients{
+        display: grid;
+        grid-template-columns: 400px ;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .clients .client img{
+        border-radius: 50%;
+        width: 130px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .clients .client{
+        border: 2px solid #52411f;margin-bottom: 40px;
+        padding: 10px;
+        background: #2f413b;
+        border-radius: 7px;
+        box-shadow: 2px 4px 6px gray;
+    }
+    
+    .clients .client p{
+        font-weight: bolder;
+    }
+    
+    .clients .client:hover{
+        cursor: pointer;
+        background: #9b0b39;
+        transition: 0.6s ease;
+    }
+   
     
    
+    
+       
+       
+    
+   
+}
