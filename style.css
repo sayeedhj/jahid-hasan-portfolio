@@ -509,8 +509,8 @@ form .btn2{
 }
 
 .ftr .container{
-    display: grid;
-    grid-template-columns: 500px 300px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav .bx{
